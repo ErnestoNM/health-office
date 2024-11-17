@@ -43,11 +43,15 @@ nav ul li a {
     .hamburger {
         display: flex;
         margin-top: 10px;
-        justify-content: center;        
+        justify-content: center;
     }
 
     nav {
         flex-direction: column;
+    }
+
+    .navbar-links-container {
+        text-align: center;
     }
 
     nav ul {
@@ -66,11 +70,11 @@ nav ul li a {
 
     .home-logo-container {
         margin-top: 50px;
+    }
 }
 
 #home {
     margin-top: 10px;
-    background-color: blue;
 }
 
 .home-logo-container {
