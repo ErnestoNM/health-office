@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Reem Kufi", sans-serif !important;
+}
+
+.App {
+    width: 85vw;
+    margin: auto;
+}
+
+body {
+    background-color: #F2EBE3;
+}
+
+img {
+    width: 100%;
+    top: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .hamburger {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;        
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav ul.open {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin-top: 10px;
+    }
+
+    .home-logo-container {
+        margin-top: 50px;
+}
+
+#home {
+    margin-top: 10px;
+    background-color: blue;
+}
+
+.home-logo-container {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#about {
+    margin-top: 10px;
+}
+
+#about ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#contact {
+    margin-top: 10px;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer {
+    background-color: #000000;
+    color: white;
+    margin-top: 10px;
+}
